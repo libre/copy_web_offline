@@ -89,7 +89,17 @@ fi
 if [ ${URL:0:7} == "http://" ] ; then
 	URL=${URL:7}
 fi
-
+# Test path specifique config file
+if [ -e /usr/bin/lynx ]; then
+	echo "Lynx not found please install !" 1>&2
+	echo "apt-get install lynx or yum install lynx" 1>&2
+	exit 1
+fi 
+if [ -e /usr/bin/wget ]; then
+	echo "wget not found please install !" 1>&2
+	echo "apt-get install wget or yum install wget" 1>&2
+	exit 1
+fi
 # Test right of dest. directory
 if [ "${DEST}" = "" ]; then
 	DEST="$HOME"
