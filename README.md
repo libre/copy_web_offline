@@ -10,8 +10,7 @@ Actualy not directly compatible for https.
 - lynx
 - wget
 
-### Usage: $PROGNAME [-url www.mywebsite.org] [-ssl no] [-dest /var/www/]
+### Usage: $PROGNAME [-url www.mywebsite.org] [-dest /var/www/]
 -url	www.mywebsite.org
--ssl no (default no)
 -dest /var/www/ (default /var/backups/)
 So, check is directory access for current user !
