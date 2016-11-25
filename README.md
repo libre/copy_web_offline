@@ -1,19 +1,16 @@
 # copy_web_offline
 
-
-
-## Purpose : Script Bash for copy all public content of website (offline mode). 
+### Purpose : Script Bash for copy all public content of website (offline mode). 
 
 Check all inventory of links and dowload all page and content CSS, JS, images ... 
 Actualy not directly compatible for https. 
 
-## Depents :
+### Depents :
 =========
-
 - lynx
 - wget
 
-## Usage: $PROGNAME [-url www.mywebsite.org] [-ssl no] [-dest /var/www/]
+### Usage: $PROGNAME [-url www.mywebsite.org] [-ssl no] [-dest /var/www/]
 -url	www.mywebsite.org
 -ssl no (default no)
 -dest /var/www/ (default /var/backups/)
