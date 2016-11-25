@@ -9,7 +9,7 @@ Actualy not directly compatible for https.
 - lynx
 - wget
 
-### Usage: $PROGNAME [-url www.mywebsite.org] [-dest /var/www/]
+### Usage: copy_web_offline.sh [-url www.mywebsite.org] [-dest /var/www/]
 -url	www.mywebsite.org
 
 -dest /var/www/ (default /var/backups/)
